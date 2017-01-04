@@ -1,0 +1,57 @@
+Body {
+  background-color:#FE4C4C;
+}
+h1{
+  color:white;
+  font-family: Brush Script MT;
+  font-size: 50px;
+}
+.Quote{
+  text-align: center;
+}
+.quotebox {
+  margin: auto;
+  margin-top: 50px;
+  padding: 80px;
+  background: white;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.Quotes{
+  font-size: 30px;
+  font-family: Arial;
+}
+.Quote-underline {
+  background-color: red;
+  border: none;
+  border-color: red;
+  height: 4px;
+  background: red;
+ background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 300, from(#bbb), to(#fff));  
+ margin-top: 20px;
+ margin-bottom: -10px;
+}
+.Author{
+  font-size: 20px;
+  font-family:Arial;
+}
+.btn-primary{
+  background: #FE4C4C;
+}
+.Ayman {
+  text-align:center;
+  color: white;
+  margin: 20px;
+  font-family: Brush Script MT;
+}
+.Newquotebutton {
+  margin-top:25px;
+  width:15%;
+  float:right;
+  color:white;
+}
+#Tweet{
+  float:left;
+  margin-top:25px;
+}
