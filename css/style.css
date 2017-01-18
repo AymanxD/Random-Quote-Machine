@@ -6,9 +6,7 @@ h1{
   font-family: Brush Script MT;
   font-size: 50px;
 }
-.Quote{
-  text-align: center;
-}
+
 .quotebox {
   margin: auto;
   margin-top: 50px;
@@ -21,14 +19,11 @@ h1{
 .Quotes{
   font-size: 30px;
   font-family: Arial;
+  text-align: center;
 }
 .Quote-underline {
-  background-color: red;
-  border: none;
-  border-color: red;
   height: 4px;
-  background: red;
- background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 300, from(#bbb), to(#fff));  
+ background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 300, from(#bbb), to(#fff));
  margin-top: 20px;
  margin-bottom: -10px;
 }
