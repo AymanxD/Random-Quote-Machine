@@ -13,7 +13,7 @@ h1{
   padding: 80px;
   background: white;
   border-radius: 5px;
-  width: 50%;
+  width: 800px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 .Quotes{
@@ -42,11 +42,24 @@ h1{
 }
 .Newquotebutton {
   margin-top:25px;
-  width:15%;
+  width:100px;
   float:right;
   color:white;
 }
 #Tweet{
   float:left;
   margin-top:25px;
+}
+
+
+@media (max-width:600px) {
+  .Quotes {
+    font-size: 20px;
+  }
+  .Author {
+    font-size: 16px;
+  }
+  .quotebox {
+    width: 380px;
+  }
 }
